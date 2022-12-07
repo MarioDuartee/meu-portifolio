@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    ;
+}
+
+body {
+    background: #171717;
+}
+
+.container {
+    max-width: 1162px;
+    margin: auto;
+}
+
+
+
+
+
+
+/* cabecalho */
+
+.nav-bar {
+    color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.nav-bar h1 {
+    margin: 0;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #F9F9F9;
+    margin-left: 45px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+    align-items: center;
+}
+
+.presentation section h1 {
+    font-size: 36px;
+    font-weight: 700;
+    width: 230px;
+    color: #F9F9F9;
+    margin: 0;
+    line-height: 47px;
+}
+
+.presentation section p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 337px;
+    color: #828282;
+    margin: 18px 0 35px;
+    line-height: 23px;
+}
+
+
+.down-cv {
+    width: 143px;
+    height: 42px;
+    background: #00DF5E;
+    border-style: none;
+    padding: 0;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.down-cv:hover {
+    cursor: pointer;
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.down-cv a {
+    text-decoration: none;
+    color: #171717;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 5px;
+}
+
+.contact {
+    width: 157px;
+    height: 42px;
+    background: #171717;
+    border: 1px solid #333333;
+    padding: 0;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.contact:hover {
+    cursor: pointer;
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+
+.contact a {
+    text-decoration: none;
+    color: #F9F9F9;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.space-button {
+    width: 315px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+/* texto sobre mim */
+
+.text-sobre-mim {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 160px;
+}
+
+.text-sobre-mim h2 {
+    color: #F9F9F9;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.text-sobre-mim p {
+    color: #828282;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    color: #F9F9F9;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.about span div {
+    height: 62px;
+    width: 62px;
+    background: #212121;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+}
+
+.about span div img {
+    width: 32px;
+    margin: auto;
+}
+
+.about span {
+    text-align: center;
+}
+
+.about span p {
+    color: #828282;
+}
+
+.about span p a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.about {
+    margin-top: 85px;
+}
+
+
+
+
+/* projetos */
+
+#projetos div section h2 {
+    margin: 127px 0 2px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #F9F9F9;
+}
+
+#projetos div section span h3 {
+    margin: 23px 0 6px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF
+}
+
+#projetos div section span p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+}
+
+.projetos-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.projetos-menu span {
+    width: 300px;
+    height: 200px;
+    background: #333333;
+    margin-top: 30px;
+    padding: 20px 25px;
+    transition: .8s;
+
+}
+
+.projetos-menu span:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .8s;
+}
+
+.projetos-menu span img {
+    width: 300px;
+    height: 130px;
+    margin: 0;
+}
+
+
+/* Servicos */
+
+#servicos {
+    margin-top: 127px;
+}
+
+#servicos h2 {
+    text-align: center;
+    color: #F9F9F9;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.box-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-services span {
+    width: 38%;
+    background: #333333;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    border-bottom: 4px solid #00DF5E;
+    border-radius: 10px;
+    margin-bottom: 127px;
+    padding: 50px 50px 10px;
+    justify-content: center;
+    transition: .8s;
+}
+
+.box-services span img {
+    width: 56px;
+}
+
+.box-services span h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    color: #828282;
+    margin-top: 54px;
+}
+
+.box-services span:hover {
+    transform: scale(1.12);
+    transition: .8s;
+}
+
+
+
+
+/*Minhas skills*/
+
+
+#minhasSkills h2 {
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 32px;
+    line-height: 42px;
+    margin: 0 0 30px
+}
+
+.box-skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 185px;
+}
+
+.box-skills span {
+    background: #333333;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .8s;
+    flex-wrap: wrap;
+}
+
+.box-skills span:hover {
+    transform: scale(1.2);
+    transition: .8s;
+}
+
+footer {
+    background: #333333;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.my-footer {
+    color: #F9F9F9;
+    text-align: center;
+    line-height: 21px;
+}
+
+.my-footer strong {
+    color: #00DF5E;
+}
+
+
+@media(max-width: 500px) {
+    .nav-bar {
+        margin: 24px;
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .presentation section:nth-child(1) {
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    .presentation section h1 {
+        margin: auto;
+    }
+
+
+
+    .presentation section img {
+        display: none;
+    }
+
+    .space-button {
+        margin: auto;
+    }
+
+    .down-cv {
+        width: 150px;
+        height: 30px;
+    }
+
+    .contact {
+        width: 150px;
+        height: 30px;
+    }
+
+    .text-sobre-mim {
+        margin: 56px 24px 0;
+    }
+
+    .about {
+        width: 240px;
+    }
+
+    .about span {
+        margin-top: 40px;
+    }
+
+    .box-services span {
+        width: 250px;
+        margin-bottom: 50px;
+    }
+
+    #minhasSkills {
+        margin-top: 100px;
+    }
+
+    .box-skills span {
+        margin: 20px 20px;
+    }
+
+}
