@@ -27,8 +27,4 @@ Meu portifólio é um projeto que mostra minhas SKILLS e projetos já feito.
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=13190%3A2&t=ezDliFCruNlbLCcD-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f5176a1ce13de0fb8b198ced39b61bba6c264296
 Projeto desenvolvido por mim [Mário Duarte](https://www.linkedin.com/in/mario-duarte-3923431b8) e design feito por [Iuri Silva](https://www.linkedin.com/in/iuricode).
