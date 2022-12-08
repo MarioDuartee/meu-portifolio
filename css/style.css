@@ -72,6 +72,10 @@ body {
     line-height: 23px;
 }
 
+.presentation section img {
+    width: 350px;
+}
+
 
 .down-cv {
     width: 143px;
