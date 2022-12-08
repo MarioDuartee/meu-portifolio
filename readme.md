@@ -1,4 +1,4 @@
-<h1 align="center"> Desadio 2 </h1>
+<h1 align="center"> Meu Portfólio</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Meu portifólio é um projeto que mostra minhas SKILLS e projetos já feito.
+Meu portfólio é um projeto que mostra minhas SKILLS e projetos já feito.
 
 ## 🔖 Layout
 
