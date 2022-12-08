@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Meu portifólio é um projeto que mostra minhas SKILLS e projetos já feito e feito deploy pelo github.
+Meu portifólio é um projeto que mostra minhas SKILLS e projetos já feito.
 
 ## 🔖 Layout
 
