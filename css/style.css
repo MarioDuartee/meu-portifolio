@@ -106,6 +106,8 @@ body {
     padding: 0;
     transition: .5s;
     border-radius: 5px;
+    color: #F9F9F9;
+
 }
 
 .contact:hover {
@@ -236,23 +238,29 @@ body {
 
 }
 
-.projetos-menu span {
-    width: 300px;
-    height: 200px;
+.projetos-menu button {
+    width: 350px;
+    height: 240px;
     background: #333333;
     margin-top: 30px;
     padding: 20px 25px;
     transition: .8s;
-
+    border: 0;
+    color: #F9F9F9;
+    text-align: left;
 }
 
-.projetos-menu span:hover {
+.projetos-menu button p {
+    color: #828282;
+}
+
+.projetos-menu button:hover {
     cursor: pointer;
     transform: scale(1.1);
     transition: .8s;
 }
 
-.projetos-menu span img {
+.projetos-menu button img {
     width: 300px;
     height: 130px;
     margin: 0;
