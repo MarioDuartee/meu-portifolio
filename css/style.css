@@ -145,6 +145,10 @@ body {
 
 /* texto sobre mim */
 
+.text-sobre-mim strong{
+    color: #018639;
+}
+
 .text-sobre-mim {
     text-align: center;
     max-width: 1000px;
