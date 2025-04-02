@@ -8,9 +8,8 @@
 
 <br>
 
-<p align="center">
-  <img alt="Portifólio" src="my-photo.png" width="100%">
-</p>
+![image](https://github.com/user-attachments/assets/925485fb-6065-44a8-a985-8f974e6128c8)
+
 
 ## 🚀 Tecnologias
 
