@@ -26,5 +26,14 @@ function localClick(github) {
         case 'nlw-copa':
             window.location.href = 'https://marioduartee.github.io/NLW-Copa/'
             break
+        case 'chihiro':
+            window.location.href = 'https://chihiro-8tfsv7bn4-marioduartee.vercel.app/'
+            break
+        case 'javascriptPage':
+            window.location.href = 'https://marioduartee.github.io/JavaScript/'
+            break
+        case 'array':
+            window.location.href = 'https://marioduartee.github.io/array/'
+            break
     }
 }

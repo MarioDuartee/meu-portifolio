@@ -136,8 +136,10 @@ body {
 }
 
 
-
-
+.icon-portfolio img {
+    border-radius: 50%;
+    border: 3px solid #00DF5E;
+}
 
 
 
@@ -156,7 +158,7 @@ body {
     margin-top: 160px;
 }
 
-.text-sobre-mim h2 {
+.text-sobre-mim h2, h1 {
     color: #F9F9F9;
     font-weight: 700;
     font-size: 32px;
@@ -170,6 +172,22 @@ body {
     line-height: 32px;
 }
 
+.text-sobre-mim ul{
+    list-style: none;
+}
+
+.text-sobre-mim ul li{
+    color:#828282;
+    margin: 10px;
+}
+
+.text-sobre-mim{
+    margin-top: 100px;
+}
+
+.text-sobre-mim > p:nth-child(6){
+    margin-top: 50px;
+}
 .about {
     display: flex;
     flex-wrap: wrap;
@@ -258,8 +276,9 @@ body {
     text-align: left;
 }
 
-.projetos-menu button p {
-    color: #828282;
+.projetos-menu h3{
+    text-align: center;
+    padding-top: 20px;
 }
 
 .projetos-menu button:hover {
