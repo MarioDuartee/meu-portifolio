@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mário Duarte | Desenvolvedor Front-End em transição para Q.A.</title>
+<meta name="description" content="Portfólio de Mário Duarte, desenvolvedor Front-End júnior em transição para Q.A.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=DM+Sans:wght@400;500;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<div id="bar"></div>
+<nav id="nav"><a class="lg" href="#topo" aria-label="Ir para o início">MD</a>
+<span class="role">Quality Assurance Junior</span>
+<ul id="menu"><li><a href="#sobre">Sobre</a></li><li><a href="#qa">Q.A.</a></li><li><a href="#projetos">Projetos</a></li><li><a href="#skills">Skills</a></li><li class="mc"><a href="#contato">Contato</a></li><li id="ind" aria-hidden="true"></li></ul>
+<a class="cta" href="#contato">Falar comigo</a>
+<button id="mb" type="button" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button></nav>
+<main>
+<section class="hero" id="topo"><div class="w hg">
+<div>
+<p class="hi">olá, eu sou o</p>
+<h1>Mário Duarte</h1>
+<p class="lead">Desenvolvedor Front-End júnior. Construo interfaces responsivas e estou migrando para <b>Q.A.</b>, porque gosto de saber se o que eu entrego funciona de verdade.</p>
+<div class="btns"><a class="btn p" href="#contato">Entrar em contato</a><a class="btn" href="assets/cv.pdf" download>Baixar CV</a></div>
+<div class="term" id="term" aria-label="Resumo das tecnologias" ></div>
+</div>
+<div class="ph" id="ph"><img src="assets/img/mario.webp" alt="Foto de Mário Duarte, de óculos e headset, com luzes azuis ao fundo" width="630" height="640"></div>
+</div></section>
+
+<section id="sobre"><div class="w">
+<h2 class="rv">Sobre mim</h2>
+<div class="ab">
+<p class="rv">Sou formado em <b>Análise e Desenvolvimento de Sistemas</b>. Comecei no fim de 2021 e concluí em março de 2023. Desde então estudo e pratico Front-End quase todo dia.</p>
+<p class="rv" style="--d:.12s">Gosto de tecnologia e de resolver problema. Me comunico bem e rendo tanto sozinho quanto em equipe. Procuro uma vaga de <b>Front-End Júnior</b> ou de <b>Analista de Q.A. Júnior</b> para aprender com gente mais experiente e entregar em projeto real.</p>
+</div></div></section>
+
+<section id="qa" class="qa"><div class="w">
+<h2 class="rv">De dev para Q.A.</h2>
+<div class="qg">
+<div class="tx rv">
+<p>Depois de montar telas, percebi que a parte que mais me prende é garantir que elas funcionem para todo mundo, em qualquer tela e em qualquer situação.</p>
+<p>Quem programa sabe onde os bugs costumam se esconder. Quero usar isso para escrever bons casos de teste, relatar problemas com clareza e, mais pra frente, automatizar tudo com JavaScript.</p>
+<button class="run" id="run" type="button">rodar testes nesta página</button>
+</div>
+<div class="out rv" style="--d:.12s"><ul id="res" aria-live="polite"><li class="mu"><span class="r">$</span>os testes abaixo rodam de verdade nesta página. Clique no botão.</li></ul><p class="sum" id="sum"></p></div>
+</div></div></section>
+
+<section id="projetos"><div class="w">
+<h2 class="rv">Projetos</h2>
+<div class="fl rv" id="fl" role="group" aria-label="Filtrar projetos"></div>
+<div class="pg"><ul class="pl" id="pl"></ul><div class="pv" aria-hidden="true"><img id="pi" alt=""></div></div>
+</div></section>
+
+<section id="skills"><div class="w"><h2 class="rv">Skills</h2>
+<div class="sk">
+<div class="dn rv"><h3>No dia a dia</h3><ul>
+<li><b>HTML5</b><span>tags semânticas, formulários, tabelas e listas</span></li>
+<li><b>CSS3</b><span>Flexbox, Grid, animações e layouts responsivos</span></li>
+<li><b>JavaScript</b><span>DOM, eventos, arrays, objetos, funções assíncronas e RegExp</span></li>
+<li><b>React</b><span>componentes, estado, props, hooks e rotas</span></li>
+<li><b>Git e GitHub</b><span>versionamento e trabalho em equipe</span></li></ul></div>
+<div class="nx rv" style="--d:.12s"><h3>Estudando agora</h3><ul>
+<li><b>Fundamentos de Q.A.</b><span>casos de teste, relato de bugs e testes manuais</span></li>
+<li><b>Automação de testes</b><span>o próximo passo da transição</span></li></ul></div>
+</div></div></section>
+
+<section id="contato"><div class="w"><h2 class="rv">Vamos conversar?</h2>
+<ul class="ct rv">
+<li><span>e-mail</span><a href="mailto:j.mario.d.c@gmail.com">j.mario.d.c@gmail.com</a></li>
+<li><span>telefone</span><a href="tel:+5585999022591">(85) 9.9902-2591</a></li>
+<li><span>instagram</span><a href="https://www.instagram.com/marioduartec/" target="_blank" rel="noopener">@marioduartec</a></li>
+</ul></div></section>
+</main>
+<footer><div class="w">Site criado por Mário Duarte junto com o Claude, a IA da Anthropic.</div></footer>
+
+<script src="js/utils.js"></script>
+<script src="js/reveal.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/hero.js"></script>
+<script src="js/projects-data.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/qa-tests.js"></script>
+</body>
+</html>
