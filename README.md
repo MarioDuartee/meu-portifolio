@@ -62,7 +62,7 @@ portfolio/
 ├── README.md
 ├── assets/
 │   ├── favicon.svg
-│   ├── cv.pdf                  # coloque o seu CV aqui
+│   ├── cv.pdf                  
 │   └── img/
 │       ├── mario.webp
 │       └── projects/           # prints dos projetos (.webp)
@@ -80,29 +80,6 @@ portfolio/
 
 A ordem dos `<script>` no `index.html` importa: `utils.js` e `reveal.js` vêm primeiro porque os outros arquivos usam o que eles definem.
 
-## 🔧 Como rodar
-
-Não precisa instalar nada. Baixe ou clone o repositório e abra o `index.html` no navegador.
-
-```bash
-git clone <url-do-repositorio>
-cd <pasta-do-projeto>
-```
-
-Se preferir um servidor local, use a extensão **Live Server** do VS Code ou rode `npx serve`.
-
-**Publicar na Vercel:** importe o repositório e faça o deploy. É um site estático, então não há comando de build nem pasta de saída para configurar.
-
-### Adicionar um projeto
-
-1. Salve o print em `assets/img/projects/` (por exemplo, `meu-projeto.webp`).
-2. Em `js/projects-data.js`, inclua um item na lista `P`:
-
-```js
-{ t: 'Meu projeto', d: 'O que ele faz.', s: ['HTML', 'CSS'], k: 'layout', i: 'meu-projeto', u: 'https://...' }
-```
-
-`k` define o filtro (`js` ou `layout`) e `i` é o nome do arquivo da imagem, sem a extensão.
 
 ## 🎨 Layout
 
